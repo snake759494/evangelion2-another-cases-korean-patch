@@ -122,6 +122,13 @@ def write(glyphs, template):
     idx = {c: i for i, c in enumerate(codes)}
     cm = [idx.get(first + i, missing) for i in range(last - first + 1)]
     data = bytearray(); ptrs = []
+    # metric tables (real fonts always index x/y bearing and advance; flag 61 = H_ROWS + all indexed)
+    tabs = [[], [], [], []]
+    def tix(k, pair):
+        t = tabs[k]
+        if pair not in t: t.append(pair)
+        i = t.index(pair); assert i < 255, ('metric table overflow', k)
+        return i
     maxw = maxh = 0; maxasc = maxdesc = 0; maxadv = 0
     for c in codes:
         g = glyphs[c]; bmp = g['bmp']; h = len(bmp); w = len(bmp[0]) if h else 0
@@ -130,11 +137,12 @@ def write(glyphs, template):
         maxadv = max(maxadv, g['adv'])
         bw = BitWriter()
         bw.put(0, 14); bw.put(w, 7); bw.put(h, 7); bw.put(g['left'] & 127, 7); bw.put(g['top'] & 127, 7)
-        bw.put(1, 6)            # H_ROWS, explicit metrics
+        bw.put(61, 6)           # H_ROWS | DIM/X/Y/ADV indexed (same as jpn0 kanji)
         bw.put(0, 2); bw.put(0, 2); bw.put(0, 3); bw.put(0, 9)
-        for v in (w * 64, h * 64, g['left'] * 64, -g['adv'] // 2 & 0xffffffff,
-                  g['top'] * 64, 0, g['adv'], 1152):
-            bw.put(v & 0xffffffff, 32)
+        bw.put(tix(0, (w * 64, h * 64)), 8)
+        bw.put(tix(1, (g['left'] * 64, -g['adv'] // 2)), 8)
+        bw.put(tix(2, (g['top'] * 64, 0)), 8)
+        bw.put(tix(3, (g['adv'], 1152)), 8)
         for nb in rle([v for row in bmp for v in row]): bw.put(nb, 4)
         # first 14 bits = glyph size in bytes (real libfont copies this many bytes into its cache)
         size = (len(bw.bits) + 7) // 8
@@ -153,6 +161,7 @@ def write(glyphs, template):
     struct.pack_into('<HH', hdr, 0xb6, first, last)
     # keep template maxGlyphWidth/Height: the game sizes its glyph cache from them
     assert maxw <= struct.unpack_from('<H', hdr, 0xfc)[0] and maxh <= struct.unpack_from('<H', hdr, 0xfe)[0], (maxw, maxh)
-    hdr[0x102:0x106] = bytes(4)
+    hdr[0x102:0x106] = bytes(len(t_) for t_ in tabs)
     struct.pack_into('<ii', hdr, 0x16c, 0, template.h['shbpe'])
-    return bytes(hdr) + table(cm, cmbpe) + table(ptrs, cpbpe) + bytes(data)
+    mt = b''.join(struct.pack('<ii', a, b) for t_ in tabs for a, b in t_)
+    return bytes(hdr) + mt + table(cm, cmbpe) + table(ptrs, cpbpe) + bytes(data)
