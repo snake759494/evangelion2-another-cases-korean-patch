@@ -136,6 +136,10 @@ def write(glyphs, template):
                   g['top'] * 64, 0, g['adv'], 1152):
             bw.put(v & 0xffffffff, 32)
         for nb in rle([v for row in bmp for v in row]): bw.put(nb, 4)
+        # first 14 bits = glyph size in bytes (real libfont copies this many bytes into its cache)
+        size = (len(bw.bits) + 7) // 8
+        assert size < 1 << 14
+        for i in range(14): bw.bits[i] = (size >> i) & 1
         bw.pad32()
         ptrs.append(len(data) // 4); data += bw.bytes()
     cpbpe = max(1, (len(data) // 4).bit_length())
