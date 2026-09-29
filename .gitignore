@@ -1,0 +1,16 @@
+# 게임 데이터는 저장소에 넣지 않습니다
+*.iso
+*.ISO
+*.bin
+*.BIN
+*.elf
+*.xdelta
+*.exe
+*.ttf
+*.png
+*.jpg
+work/
+__pycache__/
+translation/tmp/
+translation/unique_ja.json
+translation/batches/

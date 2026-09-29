@@ -1,0 +1,6004 @@
+{
+ "game/subtitle.har/day10   .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    120,
+    80
+   ],
+   "ko": "일 후",
+   "font": "serif",
+   "align": "left",
+   "fit": 0.95,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2
+  }
+ ],
+ "game/subtitle.har/day11   .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    120,
+    80
+   ],
+   "ko": "다음 날",
+   "font": "serif",
+   "align": "left",
+   "fit": 0.95,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2
+  }
+ ],
+ "game/subtitle.har/day12   .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    180,
+    80
+   ],
+   "ko": "며칠 후",
+   "font": "serif",
+   "align": "left",
+   "fit": 0.95,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2
+  }
+ ],
+ "game/subtitle.har/st_t01  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    17,
+    71,
+    218,
+    169
+   ],
+   "ko": "사도,",
+   "font": "serif",
+   "size": 90,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    17,
+    172,
+    188,
+    270
+   ],
+   "ko": "내습",
+   "font": "serif",
+   "size": 90,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t02  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    164,
+    36,
+    463,
+    140
+   ],
+   "ko": "아스카,",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    130,
+    184,
+    280,
+    245
+   ],
+   "ko": "일본에",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    279,
+    144,
+    463,
+    248
+   ],
+   "ko": "오다",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t03  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    258,
+    58,
+    464,
+    162
+   ],
+   "ko": "레이,",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    158,
+    163,
+    464,
+    224
+   ],
+   "ko": "마음의 저편에",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t04  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    20,
+    55,
+    172,
+    116
+   ],
+   "ko": "마지막",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    20,
+    123,
+    205,
+    227
+   ],
+   "ko": "사자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t05  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    112,
+    54,
+    292,
+    158
+   ],
+   "ko": "여자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    291,
+    94,
+    461,
+    155
+   ],
+   "ko": "의 싸움",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t06  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    201,
+    36,
+    462,
+    140
+   ],
+   "ko": "어나더",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    284,
+    144,
+    462,
+    248
+   ],
+   "ko": "월드",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t07  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    300,
+    80,
+    464,
+    174
+   ],
+   "ko": "엔젤",
+   "font": "serif",
+   "size": 86,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    231,
+    176,
+    464,
+    270
+   ],
+   "ko": "버스터",
+   "font": "serif",
+   "size": 86,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t08  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    201,
+    58,
+    465,
+    162
+   ],
+   "ko": "토우지",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    233,
+    163,
+    465,
+    224
+   ],
+   "ko": "다시 한 번",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t09  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    28,
+    110,
+    89
+   ],
+   "ko": "VS.",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    96,
+    199,
+    200
+   ],
+   "ko": "제레",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t10  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    24,
+    53,
+    268,
+    114
+   ],
+   "ko": "시바무라틱",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    24,
+    121,
+    287,
+    225
+   ],
+   "ko": "밸런스",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t11  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    246,
+    55,
+    463,
+    116
+   ],
+   "ko": "가망 없는",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    281,
+    123,
+    463,
+    227
+   ],
+   "ko": "씨앗",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t12  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    18,
+    80,
+    107,
+    174
+   ],
+   "ko": "양",
+   "font": "serif",
+   "size": 86,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    117,
+    157,
+    172
+   ],
+   "ko": "은",
+   "font": "serif",
+   "size": 47,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    18,
+    176,
+    257,
+    270
+   ],
+   "ko": "올려다",
+   "font": "serif",
+   "size": 86,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    255,
+    213,
+    350,
+    268
+   ],
+   "ko": "본다",
+   "font": "serif",
+   "size": 47,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t13  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    249,
+    54,
+    463,
+    115
+   ],
+   "ko": "높은 성의",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    278,
+    122,
+    463,
+    226
+   ],
+   "ko": "남자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t14  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    55,
+    170,
+    116
+   ],
+   "ko": "빼앗긴",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    123,
+    202,
+    227
+   ],
+   "ko": "자들",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t15  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    89,
+    164,
+    150
+   ],
+   "ko": "이러면",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    157,
+    198,
+    261
+   ],
+   "ko": "느껴",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    197,
+    197,
+    375,
+    258
+   ],
+   "ko": "지나요?",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t16  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    41,
+    98,
+    257,
+    159
+   ],
+   "ko": "흘러라 내",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    256,
+    58,
+    438,
+    162
+   ],
+   "ko": "눈물",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    437,
+    98,
+    463,
+    159
+   ],
+   "ko": ",",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    150,
+    163,
+    463,
+    224
+   ],
+   "ko": "경관은 말했다",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t17  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    297,
+    62,
+    463,
+    123
+   ],
+   "ko": "언젠가,",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    285,
+    130,
+    463,
+    234
+   ],
+   "ko": "결코",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t18  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    127,
+    41,
+    301,
+    139
+   ],
+   "ko": "추락",
+   "font": "serif",
+   "size": 90,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    300,
+    79,
+    463,
+    137
+   ],
+   "ko": "해 가는",
+   "font": "serif",
+   "size": 50,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    295,
+    142,
+    463,
+    240
+   ],
+   "ko": "우리",
+   "font": "serif",
+   "size": 90,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t19  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    9,
+    270,
+    67
+   ],
+   "ko": "그리고 나는",
+   "font": "serif",
+   "size": 50,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    110,
+    201,
+    168
+   ],
+   "ko": "잃어버린",
+   "font": "serif",
+   "size": 50,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    200,
+    72,
+    287,
+    170
+   ],
+   "ko": "길",
+   "font": "serif",
+   "size": 90,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    286,
+    110,
+    450,
+    168
+   ],
+   "ko": "을 따라",
+   "font": "serif",
+   "size": 50,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    211,
+    162,
+    269
+   ],
+   "ko": "이곳을",
+   "font": "serif",
+   "size": 50,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    161,
+    173,
+    336,
+    271
+   ],
+   "ko": "찾아",
+   "font": "serif",
+   "size": 90,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    335,
+    211,
+    436,
+    269
+   ],
+   "ko": "냈다",
+   "font": "serif",
+   "size": 50,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t20  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    92,
+    126,
+    363,
+    230
+   ],
+   "ko": "방문자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t21  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    245,
+    14,
+    413,
+    110
+   ],
+   "ko": "출구",
+   "font": "serif",
+   "size": 88,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    411,
+    52,
+    464,
+    108
+   ],
+   "ko": "는",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    182,
+    111,
+    464,
+    167
+   ],
+   "ko": "어딘가로 가는",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    300,
+    172,
+    464,
+    268
+   ],
+   "ko": "입구",
+   "font": "serif",
+   "size": 88,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t22  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    309,
+    89,
+    464,
+    150
+   ],
+   "ko": "소박한",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    280,
+    157,
+    464,
+    261
+   ],
+   "ko": "유산",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t23  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    123,
+    36,
+    306,
+    140
+   ],
+   "ko": "안쪽",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    305,
+    76,
+    360,
+    137
+   ],
+   "ko": "의",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    152,
+    144,
+    332,
+    248
+   ],
+   "ko": "세계",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t24  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    36,
+    114,
+    130,
+    170
+   ],
+   "ko": "어느",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    128,
+    76,
+    408,
+    172
+   ],
+   "ko": "맑은 날",
+   "font": "serif",
+   "size": 88,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    406,
+    114,
+    459,
+    170
+   ],
+   "ko": "에",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t25  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    224,
+    61,
+    462,
+    117
+   ],
+   "ko": "모든 시간이",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    160,
+    373,
+    216
+   ],
+   "ko": "뿜어져 나온",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    371,
+    122,
+    462,
+    218
+   ],
+   "ko": "밤",
+   "font": "serif",
+   "size": 88,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t26  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    38,
+    13,
+    464,
+    69
+   ],
+   "ko": "세계의 가장자리에 선",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    249,
+    74,
+    413,
+    170
+   ],
+   "ko": "도시",
+   "font": "serif",
+   "size": 88,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    411,
+    112,
+    464,
+    168
+   ],
+   "ko": "를",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    236,
+    211,
+    375,
+    267
+   ],
+   "ko": "헤매는",
+   "font": "serif",
+   "size": 48,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    373,
+    173,
+    464,
+    269
+   ],
+   "ko": "자",
+   "font": "serif",
+   "size": 88,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t27  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    127,
+    14,
+    310,
+    118
+   ],
+   "ko": "마음",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    309,
+    54,
+    474,
+    115
+   ],
+   "ko": "에 걸린",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    376,
+    122,
+    474,
+    226
+   ],
+   "ko": "자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t28  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    119,
+    77,
+    217,
+    118
+   ],
+   "ko": "그리고",
+   "font": "serif",
+   "size": 33,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 0,
+   "align": "left"
+  },
+  {
+   "box": [
+    213,
+    52,
+    383,
+    120
+   ],
+   "ko": "깨어나",
+   "font": "serif",
+   "size": 60,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    379,
+    77,
+    457,
+    118
+   ],
+   "ko": "보니,",
+   "font": "serif",
+   "size": 33,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 0,
+   "align": "left"
+  },
+  {
+   "box": [
+    183,
+    117,
+    393,
+    158
+   ],
+   "ko": "나는 이 차가운",
+   "font": "serif",
+   "size": 33,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 0,
+   "align": "left"
+  },
+  {
+   "box": [
+    166,
+    159,
+    278,
+    227
+   ],
+   "ko": "언덕",
+   "font": "serif",
+   "size": 60,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    274,
+    184,
+    411,
+    225
+   ],
+   "ko": "에 있었다",
+   "font": "serif",
+   "size": 33,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 0,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t29  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    104,
+    64,
+    462,
+    125
+   ],
+   "ko": "문들이 인사하는",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    277,
+    132,
+    462,
+    236
+   ],
+   "ko": "남자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t30  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    313,
+    18,
+    463,
+    79
+   ],
+   "ko": "끝에서",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    68,
+    86,
+    364,
+    190
+   ],
+   "ko": "두 번째",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    363,
+    126,
+    463,
+    187
+   ],
+   "ko": "진실",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t31  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    54,
+    174,
+    115
+   ],
+   "ko": "소박한",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    122,
+    196,
+    226
+   ],
+   "ko": "예지",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t32  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    176,
+    55,
+    331,
+    116
+   ],
+   "ko": "잔혹한",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    123,
+    123,
+    384,
+    227
+   ],
+   "ko": "방정식",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t33  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    146,
+    166,
+    252,
+    227
+   ],
+   "ko": "다음",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    251,
+    126,
+    433,
+    230
+   ],
+   "ko": "차례",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t34  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    89,
+    111,
+    193
+   ],
+   "ko": "빛",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    110,
+    129,
+    325,
+    190
+   ],
+   "ko": "이 있으라",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t35  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    20,
+    21,
+    200,
+    125
+   ],
+   "ko": "시간",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    199,
+    61,
+    302,
+    122
+   ],
+   "ko": "과의",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    20,
+    126,
+    126,
+    187
+   ],
+   "ko": "다툼",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t36  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    139,
+    104,
+    241,
+    163
+   ],
+   "ko": "모든",
+   "font": "serif",
+   "size": 51,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    240,
+    66,
+    411,
+    166
+   ],
+   "ko": "여름",
+   "font": "serif",
+   "size": 92,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    410,
+    104,
+    463,
+    163
+   ],
+   "ko": "의",
+   "font": "serif",
+   "size": 51,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    180,
+    207,
+    233,
+    266
+   ],
+   "ko": "이",
+   "font": "serif",
+   "size": 51,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    232,
+    169,
+    409,
+    269
+   ],
+   "ko": "하루",
+   "font": "serif",
+   "size": 92,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    408,
+    207,
+    463,
+    266
+   ],
+   "ko": "에",
+   "font": "serif",
+   "size": 51,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t37  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    37,
+    196,
+    141
+   ],
+   "ko": "새벽",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    195,
+    77,
+    254,
+    138
+   ],
+   "ko": "과",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    145,
+    197,
+    249
+   ],
+   "ko": "어둠",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    196,
+    185,
+    299,
+    246
+   ],
+   "ko": "사이",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t38  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    26,
+    167,
+    197,
+    221
+   ],
+   "ko": "그리하여",
+   "font": "serif",
+   "size": 46,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    195,
+    131,
+    276,
+    223
+   ],
+   "ko": "빛",
+   "font": "serif",
+   "size": 84,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    274,
+    167,
+    459,
+    221
+   ],
+   "ko": "이 있었다",
+   "font": "serif",
+   "size": 46,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t39  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    19,
+    53,
+    175,
+    141
+   ],
+   "ko": "무한",
+   "font": "serif",
+   "size": 80,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    173,
+    87,
+    358,
+    139
+   ],
+   "ko": "으로 가는",
+   "font": "serif",
+   "size": 44,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    19,
+    143,
+    101,
+    231
+   ],
+   "ko": "표",
+   "font": "serif",
+   "size": 80,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t40  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    18,
+    84,
+    193,
+    139
+   ],
+   "ko": "그리하여",
+   "font": "serif",
+   "size": 47,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    191,
+    47,
+    351,
+    141
+   ],
+   "ko": "신들",
+   "font": "serif",
+   "size": 86,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    349,
+    84,
+    401,
+    139
+   ],
+   "ko": "은",
+   "font": "serif",
+   "size": 47,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    18,
+    143,
+    334,
+    237
+   ],
+   "ko": "웃었노라",
+   "font": "serif",
+   "size": 86,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t41  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    18,
+    55,
+    214,
+    116
+   ],
+   "ko": "성스러운",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    18,
+    123,
+    192,
+    227
+   ],
+   "ko": "침입",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t42  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    18,
+    36,
+    289,
+    140
+   ],
+   "ko": "잠들라",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    288,
+    76,
+    314,
+    137
+   ],
+   "ko": ",",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    18,
+    144,
+    279,
+    248
+   ],
+   "ko": "편안히",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t43  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    20,
+    63,
+    234,
+    124
+   ],
+   "ko": "이름 없는",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    20,
+    131,
+    118,
+    235
+   ],
+   "ko": "땅",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t44  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    44,
+    78,
+    145,
+    138
+   ],
+   "ko": "유리",
+   "font": "serif",
+   "size": 52,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    144,
+    39,
+    404,
+    141
+   ],
+   "ko": "도깨비",
+   "font": "serif",
+   "size": 94,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    403,
+    78,
+    461,
+    138
+   ],
+   "ko": "가",
+   "font": "serif",
+   "size": 52,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    121,
+    144,
+    461,
+    246
+   ],
+   "ko": "부서지듯",
+   "font": "serif",
+   "size": 94,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t45  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    294,
+    53,
+    463,
+    114
+   ],
+   "ko": "두 번째",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    286,
+    121,
+    463,
+    225
+   ],
+   "ko": "새벽",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t46  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    12,
+    70,
+    248,
+    131
+   ],
+   "ko": "작은, 작은",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    12,
+    138,
+    197,
+    242
+   ],
+   "ko": "자칼",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t47  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    18,
+    36,
+    201,
+    140
+   ],
+   "ko": "탈출",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    200,
+    76,
+    258,
+    137
+   ],
+   "ko": "을",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    18,
+    184,
+    214,
+    245
+   ],
+   "ko": "기다리는",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    213,
+    144,
+    311,
+    248
+   ],
+   "ko": "자",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t48  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    29,
+    124,
+    148,
+    173
+   ],
+   "ko": "나에겐",
+   "font": "serif",
+   "size": 41,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    145,
+    93,
+    218,
+    175
+   ],
+   "ko": "입",
+   "font": "serif",
+   "size": 74,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    215,
+    124,
+    359,
+    173
+   ],
+   "ko": "이 없다,",
+   "font": "serif",
+   "size": 41,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    29,
+    207,
+    237,
+    256
+   ],
+   "ko": "그래도 나는",
+   "font": "serif",
+   "size": 41,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    234,
+    176,
+    438,
+    258
+   ],
+   "ko": "외친다",
+   "font": "serif",
+   "size": 74,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t49  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    22,
+    55,
+    398,
+    116
+   ],
+   "ko": "여행을 떠날 때는",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    22,
+    123,
+    200,
+    227
+   ],
+   "ko": "미소",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    199,
+    163,
+    257,
+    224
+   ],
+   "ko": "를",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_t50  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    480,
+    272
+   ],
+   "ko": "",
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ]
+  },
+  {
+   "box": [
+    314,
+    56,
+    406,
+    160
+   ],
+   "ko": "피",
+   "font": "serif",
+   "size": 96,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 2,
+   "align": "left"
+  },
+  {
+   "box": [
+    405,
+    96,
+    463,
+    157
+   ],
+   "ko": "는",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  },
+  {
+   "box": [
+    197,
+    161,
+    463,
+    222
+   ],
+   "ko": "다르지 않다",
+   "font": "serif",
+   "size": 53,
+   "bg": "keep",
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1,
+   "align": "left"
+  }
+ ],
+ "game/subtitle.har/st_x01  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제1화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y01  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "1",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x02  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제2화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y02  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "2",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x03  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제3화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y03  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "3",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x04  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제4화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y04  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "4",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x05  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제5화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y05  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "5",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x06  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제6화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y06  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "6",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x07  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제7화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y07  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "7",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x08  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제8화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y08  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "8",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x09  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제9화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y09  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "9",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x10  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    144,
+    40
+   ],
+   "ko": "제10화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y10  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    124
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    41
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    41,
+    48,
+    82
+   ],
+   "ko": "10",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    82,
+    48,
+    124
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x11  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제11화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y11  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "11",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x12  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제12화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y12  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "12",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x13  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제13화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y13  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "13",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x14  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제14화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y14  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "14",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x15  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제15화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y15  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "15",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x16  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제16화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y16  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "16",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x17  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제17화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y17  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "17",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x18  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제18화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y18  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "18",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x19  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제19화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y19  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "19",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_x20  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    188,
+    40
+   ],
+   "ko": "제20화",
+   "font": "serif",
+   "fit": 1.0,
+   "bgfill": [
+    0,
+    0,
+    0,
+    255
+   ],
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ],
+ "game/subtitle.har/st_y20  .hpt#0": [
+  {
+   "box": [
+    0,
+    0,
+    48,
+    164
+   ],
+   "ko": ""
+  },
+  {
+   "box": [
+    0,
+    0,
+    48,
+    54
+   ],
+   "ko": "제",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    54,
+    48,
+    108
+   ],
+   "ko": "20",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  },
+  {
+   "box": [
+    0,
+    108,
+    48,
+    164
+   ],
+   "ko": "화",
+   "font": "serif",
+   "bg": "keep",
+   "fit": 0.95,
+   "sx": 0.8,
+   "fill": [
+    255,
+    255,
+    255,
+    255
+   ],
+   "edge": null,
+   "bold": 1
+  }
+ ]
+}
