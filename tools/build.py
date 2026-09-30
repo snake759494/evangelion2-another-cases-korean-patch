@@ -131,6 +131,7 @@ for key, regions in spec.items():
             finally: open(tmp, 'wb').write(orig)
         else:
             IMG[m] = imgko.apply(m, int(blk), regions)[0]
+IMG_SRC = {m: open('work/unp/' + m, 'rb').read() for m in IMG}
 print('images patched', len(spec), 'members', len(IMG))
 for m, data in IMG.items():
     if m.startswith('im/') and m.endswith('.zpt.dec'):
@@ -148,7 +149,9 @@ for f in sorted(glob.glob(USR + '**/*.har', recursive=True)):
             nr = evs.build(raw, evs_repl)
             if nr != raw: new[i] = nr
         m = rel + '/' + e['name']
-        if m in IMG: new[i] = IMG[m]
+        # archives may hold several members with the same name: only replace the member whose
+        # original bytes are exactly the ones the image patch was made from
+        if m in IMG and har.data(e) == IMG_SRC[m]: new[i] = IMG[m]
     if new:
         changed['/PSP_GAME/USRDIR/' + rel] = har.build(d, new); nhar += 1
 print('har rebuilt', nhar)
@@ -189,3 +192,8 @@ for p, data in sorted(changed.items()):
     r = iso.replace(p, data); stat[r] = stat.get(r, 0) + 1
 iso.close()
 print('iso', out, stat, 'bad chars', bad_chars)
+
+# ---------------------------------------------------------------- structural verification (fails the build)
+import verify, lencheck
+if lencheck.run(fix) or verify.main(out):
+    sys.exit('VERIFY FAILED: do not release this ISO')
