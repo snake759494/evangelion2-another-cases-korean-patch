@@ -1,15 +1,15 @@
-# 신세기 에반게리온 2 -만들어진 세계- (PSP) 한글패치 v1.4
+# 신세기 에반게리온 2 -만들어진 세계- (PSP) 한글패치 v1.5
 
 『新世紀エヴァンゲリオン2 造られしセカイ -another cases-』(ULJS00064)용 비공식 한국어 패치입니다.
 
 ## 적용
 ```
-xdelta3 -d -s "Shin Seiki Evangelion 2 - Tsukurareshi Sekai - Another Cases (Japan).iso" Eva2_AnotherCases_KR_v1.4.xdelta "Shin Seiki Evangelion 2 - Tsukurareshi Sekai - Another Cases (Japan) [KR].iso"
+xdelta3 -d -s "Shin Seiki Evangelion 2 - Tsukurareshi Sekai - Another Cases (Japan).iso" Eva2_AnotherCases_KR_v1.5.xdelta "Shin Seiki Evangelion 2 - Tsukurareshi Sekai - Another Cases (Japan) [KR].iso"
 ```
 | | 크기 | MD5 |
 |---|---|---|
 | 원본 ISO | 891,191,296 | 4953ebbb73de0e868191a3b1d72e25e7 |
-| 결과 ISO | 891,813,888 | 83f8ab0a1a35e8660b19eb05020441c4 |
+| 결과 ISO | 891,813,888 | 1f48f3d541e3433fbaa5d061fb03dc0d |
 
 - 복호화한 EBOOT(평문 ELF)를 넣었기 때문에 PPSSPP·커스텀 펌웨어에서 동작하며, 정품 펌웨어에서는 부팅되지 않습니다.
 
@@ -21,6 +21,9 @@ xdelta3 -d -s "Shin Seiki Evangelion 2 - Tsukurareshi Sekai - Another Cases (Jap
 ## 폰트
 - 게임이 쓰는 PSP 시스템 폰트(jpn0.pgf, FTT-NewRodin DB) 대신 전용 PGF 폰트(`USRDIR/kfont.pgf`)를 읽게 했습니다. 한글은 **나눔스퀘어네오 Bold** 17px, 가나·기호는 원본 글리프.
 - 이미지: 명조풍은 **서울한강체**, 고딕풍은 **나눔스퀘어네오**.
+
+## v1.5 변경
+- 1화 사도전에서 「엄빌리컬 케이블 절단」 실행 시 프리징 수정 (#1): 실행 파일 문자열을 원문보다 길게 쓸 때 정렬 패딩을 넘어 뒤쪽 데이터(0으로 초기화된 필드)를 덮어쓰던 문제
 
 ## v1.4 변경
 - 실기 글자 깨짐 추가 수정: 전용 PGF 폰트의 글리프 메트릭을 원본 jpn0와 같은 표 인덱스 방식(플래그 61)으로 기록

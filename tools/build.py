@@ -158,6 +158,8 @@ D = bytearray(D0)
 for off, ko in EKO.items():
     ja, room = EBOOT_SRC[off]
     b = enc(ko)
+    old0 = len(re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ja).encode('cp932'))
+    room = min(room, ((off + old0 + 1 + 3) & ~3) - off - 1)   # zeros past the alignment padding may be data
     assert len(b) <= room, (off, ko)
     old = len(re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ja).encode('cp932'))
     D[off:off + max(old, len(b)) + 1] = b + b'\0' * (max(old, len(b)) + 1 - len(b))

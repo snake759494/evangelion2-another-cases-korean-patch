@@ -16,6 +16,7 @@ def run(name):
         ko = out.get(str(off)); e = []
         if ko is None: print(name, off, '누락'); bad += 1; continue
         if FMT.findall(ja) != FMT.findall(ko): e.append('서식코드 불일치 %s vs %s' % (FMT.findall(ja), FMT.findall(ko)))
+        room = min(room, ((off + blen(ja) + 1 + 3) & ~3) - off - 1)   # only alignment padding is free
         if blen(ko) > room: e.append('바이트 초과 %d>%d (한글·전각 2바이트, 반각 1바이트)' % (blen(ko), room))
         if ja.count('\n') < ko.count('\n'): e.append('줄 수 초과')
         for ch in re.sub(r'\{16[0-9A-F]{2}\}', '', ko):
