@@ -12,7 +12,8 @@ def run(name):
     p = os.path.join(ROOT, 'translation/out/%s.json' % name)
     if not os.path.exists(p): print(name, '없음'); return len(src)
     out = json.load(open(p, encoding='utf8')); bad = 0
-    for off, ja, room in src:
+    for item in src:
+        off, ja, room = item[:3]; inner = item[3] if len(item) > 3 else []
         ko = out.get(str(off)); e = []
         if ko is None: print(name, off, '누락'); bad += 1; continue
         if FMT.findall(ja) != FMT.findall(ko): e.append('서식코드 불일치 %s vs %s' % (FMT.findall(ja), FMT.findall(ko)))
@@ -23,6 +24,11 @@ def run(name):
             o = ord(ch)
             if 0xac00 <= o <= 0xd7a3 or 0x20 <= o < 0x7f or ch in check.SYM or ch in '\n\t': continue
             e.append('허용되지 않는 문자 %r' % ch); break
+        # other code points into the middle of this string: those byte offsets must start a character
+        pos = 0; starts = set()
+        for ch in re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ko): starts.add(pos); pos += 1 if ord(ch) < 0x80 else 2
+        for k in inner:
+            if k not in starts: e.append('꼬리 공유 위치 +%d 가 글자 중간 (해당 바이트부터 시작하는 부분이 독립 문자열로도 읽혀야 함)' % k)
         if e: bad += 1; print(name, off, '|', repr(ja), '=>', repr(ko), '|', ' / '.join(e))
     print(name, '오류', bad, '/', len(src)); return bad
 if __name__ == '__main__':

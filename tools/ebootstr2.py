@@ -3,7 +3,7 @@ import json, glob, re
 D = open('work/eboot_plain.bin', 'rb').read()
 covered = set()
 for f in glob.glob('translation/batches/e*.json') + ['work/eboot_extra_done.json']:
-    for off, ja, room in json.load(open(f, encoding='utf-8')): covered.add(off)
+    for item in json.load(open(f, encoding='utf-8')): covered.add(item[0])
 real = json.load(open('work/eboot_real.json', encoding='utf-8'))
 for x in real: covered.add(x['off'])
 def decode(b):

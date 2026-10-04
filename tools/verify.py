@@ -104,7 +104,7 @@ def check_eboot(path, o, n, allowed):
 def eboot_allowed():
     ranges = []
     for f in glob.glob(os.path.join(ROOT, 'translation/batches/e*.json')):
-        for off, ja, room in json.load(open(f, encoding='utf-8')):
+        for off, ja, room, *_ in json.load(open(f, encoding='utf-8')):
             import re
             l = len(re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ja).encode('cp932'))
             ranges.append((off, ((off + l + 1 + 3) & ~3)))

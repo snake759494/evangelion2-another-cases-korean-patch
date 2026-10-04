@@ -23,13 +23,52 @@ for i, ja in enumerate(U):
     if i in KO: JA2KO[ja] = fix(KO[i])
 EKO = {}
 # binary data that merely looks like SJIS text: never touch
-NOT_TEXT = {0x237d74, 0x23a4b4, 0x23c4f0, 0x23c550, 0x23cb08, 0x1d7856, 0x1e6bb4, 0x1e6bbc, 0x22a580, 0x23bff8, 0x23c018, 0x23c038, 0x23c058, 0x23c078, 0x23c1f8, 0x23c218, 0x23c238, 0x23e7c0, 0x23ea38, 0x23eb3e, 0x23eb78, 0x250408, 0x250430, 0x250748, 0x250758, 0x250d88, 0x250e58, 0x2515d0}
+NOT_TEXT = {0x1e2c54, 0x251548, 0x251550, 0x237d74, 0x23a4b4, 0x23c4f0, 0x23c550, 0x23cb08, 0x1d7856, 0x1e6bb4, 0x1e6bbc, 0x22a580, 0x23bff8, 0x23c018, 0x23c038, 0x23c058, 0x23c078, 0x23c1f8, 0x23c218, 0x23c238, 0x23e7c0, 0x23ea38, 0x23eb3e, 0x23eb78, 0x250408, 0x250430, 0x250748, 0x250758, 0x250d88, 0x250e58, 0x2515d0}
 for f in sorted(glob.glob('translation/out/e*.json')):
+    if os.environ.get('ESTR_SET') and not re.search(os.environ['ESTR_SET'], os.path.basename(f)): continue
     for k, v in json.load(open(f, encoding='utf-8')).items():
+        if os.environ.get('ESTR_RANGE'):
+            lo, hi = (int(x, 16) for x in os.environ['ESTR_RANGE'].split('-'))
+            if not lo <= int(k) < hi: continue
         if int(k) not in NOT_TEXT: EKO[int(k)] = fix(v.replace('~', '-'))
 EBOOT_SRC = {}
+EBOOT_INNER = {}
+def binary_like(ja):
+    # data that only looks like SJIS text: '囮' (0x8BB4) / 'ff..' / control bytes come from tables of numbers
+    return '囮' in ja or ja.startswith('ff') or bool(re.search(r'[\x00-\x08\x0b-\x1f\x7f]', ja))
 for f in sorted(glob.glob('translation/batches/e*.json')):
-    for off, ja, room in json.load(open(f, encoding='utf-8')): EBOOT_SRC[off] = (ja, room)
+    for item in json.load(open(f, encoding='utf-8')):
+        EBOOT_SRC[item[0]] = (item[1], item[2])
+        if len(item) > 3 and item[3]: EBOOT_INNER[item[0]] = item[3]
+        if binary_like(item[1]): NOT_TEXT.add(item[0]); EKO.pop(item[0], None)
+
+# ---- identical source text must get one identical translation everywhere in the EBOOT:
+# the game compares some of these strings with each other (character/location tables);
+# differing translations break those lookups (wrong model, empty map).
+def _blen(s): return len(re.sub(r'\{16[0-9A-F]{2}\}', 'xx', s).encode('cp932', errors='replace')) if False else sum(2 if ord(c) >= 0x80 else 1 for c in re.sub(r'\{16[0-9A-F]{2}\}', 'xx', s))
+def _safe_room(off):
+    ja, room = EBOOT_SRC[off]
+    old0 = len(re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ja).encode('cp932'))
+    return min(room, ((off + old0 + 1 + 3) & ~3) - off - 1)
+def _fits(off, ko):
+    if _blen(ko) > _safe_room(off): return False
+    pos = 0; starts = set()
+    for ch in re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ko): starts.add(pos); pos += 1 if ord(ch) < 0x80 else 2
+    return all(k in starts for k in EBOOT_INNER.get(off, []))
+_groups = {}
+for off in EKO:
+    if off in EBOOT_SRC: _groups.setdefault(EBOOT_SRC[off][0], []).append(off)
+_unfixable = []
+for ja, offs in _groups.items():
+    variants = [EKO[o] for o in offs]
+    if len(set(variants)) == 1: continue
+    cands = sorted(set(variants), key=lambda v: (-variants.count(v), _blen(v)))
+    pick = next((v for v in cands if all(_fits(o, v) for o in offs)), None)
+    if pick is None: _unfixable.append((ja, offs, cands)); continue
+    for o in offs: EKO[o] = pick
+if _unfixable:
+    for u in _unfixable: print('INCONSISTENT (no common translation fits):', u)
+    sys.exit('fix translation/out/e*.json so identical source strings share one translation')
 
 # ---------------------------------------------------------------- charset / SJIS mapping
 D0 = open('work/eboot_plain.bin', 'rb').read()
@@ -91,16 +130,16 @@ changed = {}   # iso path -> bytes
 d = open(USR + 'game/imtext.bin', 'rb').read()
 meta, blocks = bind.parse(d)
 nb = [textfmt.build(b, tr_bytes) if b[:4] == b'TEXT' else b for b in blocks]
-changed['/PSP_GAME/USRDIR/game/imtext.bin'] = bind.build(meta, nb)
+if not os.environ.get('NO_TEXT'): changed['/PSP_GAME/USRDIR/game/imtext.bin'] = bind.build(meta, nb)
 
 # battle TEXT (BIND)
 d = open(USR + 'btl/btimtext.bin', 'rb').read()
 meta, blocks = bind.parse(d)
-changed['/PSP_GAME/USRDIR/btl/btimtext.bin'] = bind.build(meta, [textfmt.build(x, tr_bytes) if x[:4] == b'TEXT' else x for x in blocks])
+if not os.environ.get('NO_TEXT'): changed['/PSP_GAME/USRDIR/btl/btimtext.bin'] = bind.build(meta, [textfmt.build(x, tr_bytes) if x[:4] == b'TEXT' else x for x in blocks])
 
 # free TEXT files
 for n in ('free/f2info.bin', 'free/f2tuto.bin'):
-    changed['/PSP_GAME/USRDIR/' + n] = textfmt.build(open(USR + n, 'rb').read(), tr_bytes)
+    if not os.environ.get('NO_TEXT'): changed['/PSP_GAME/USRDIR/' + n] = textfmt.build(open(USR + n, 'rb').read(), tr_bytes)
 
 # EVS inside HAR archives
 def evs_repl(op, b):
@@ -114,6 +153,8 @@ IMG = {}
 spec = {}
 for f in sorted(glob.glob('translation/images/*.json')):
     spec.update(json.load(open(f, encoding='utf-8')))
+if os.environ.get('IMG_ONLY'):   # debugging: restrict image patches to keys containing this text
+    spec = {k: v for k, v in spec.items() if os.environ['IMG_ONLY'] in k}
 import hashlib, hgpt
 HASH = json.load(open('work/imghash.json'))
 KEY2H = {k: h for h, ks in HASH.items() for k in ks}
@@ -146,7 +187,7 @@ for f in sorted(glob.glob(USR + '**/*.har', recursive=True)):
     for i, e in enumerate(ents):
         if e['name'].strip().endswith('.evs'):
             raw = har.data(e)
-            nr = evs.build(raw, evs_repl)
+            nr = raw if os.environ.get('NO_TEXT') else evs.build(raw, evs_repl)
             if nr != raw: new[i] = nr
         m = rel + '/' + e['name']
         # archives may hold several members with the same name: only replace the member whose
@@ -158,7 +199,7 @@ print('har rebuilt', nhar)
 
 # EBOOT strings
 D = bytearray(D0)
-for off, ko in EKO.items():
+for off, ko in ({} if os.environ.get('NO_ESTR') else EKO).items():
     ja, room = EBOOT_SRC[off]
     b = enc(ko)
     old0 = len(re.sub(r'\{16[0-9A-F]{2}\}', 'xx', ja).encode('cp932'))
